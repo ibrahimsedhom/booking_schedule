@@ -4,7 +4,7 @@ from frappe import _
 from frappe.utils import getdate, add_days, get_datetime, nowdate, time_diff_in_hours
 from datetime import datetime, timedelta
 
-@frappe.whitelist()
+@frappe.whitelist(allow_guest=True)
 def get_delivery_schedule(merchant_ns_id):
 	"""
 	Calculate available delivery slots for a merchant.
