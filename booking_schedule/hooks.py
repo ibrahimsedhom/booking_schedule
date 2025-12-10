@@ -1,6 +1,6 @@
 app_name = "booking_schedule"
 app_title = "Booking Schedule"
-app_publisher = "Transcorp"
+app_publisher = "Azdan"
 app_description = "Booking Schedule Management"
 app_email = "ibrahim.sedhom@azdan.com"
 app_license = "MIT"
