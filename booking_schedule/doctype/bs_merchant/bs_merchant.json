@@ -1,8 +1,10 @@
 {
  "actions": [],
+ "autoname": "field:ns_merchant_id",
  "creation": "2023-12-10 13:05:00.000000",
  "doctype": "DocType",
  "engine": "InnoDB",
+ "naming_rule": "By fieldname",
  "field_order": [
   "section_break_general",
   "ns_merchant_id",
