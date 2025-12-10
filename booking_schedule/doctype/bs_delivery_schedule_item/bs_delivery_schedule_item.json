@@ -1,0 +1,70 @@
+{
+ "actions": [],
+ "creation": "2023-12-10 13:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "week_days",
+  "days_from_now",
+  "capacity",
+  "time_from_slot",
+  "time_to_slot",
+  "schedule_duration"
+ ],
+ "fields": [
+  {
+   "fieldname": "week_days",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Week Days",
+   "reqd": 1
+  },
+  {
+   "fieldname": "days_from_now",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Days From Now",
+   "reqd": 1
+  },
+  {
+   "fieldname": "capacity",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Capacity",
+   "reqd": 1
+  },
+  {
+   "fieldname": "time_from_slot",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "Time From",
+   "reqd": 1
+  },
+  {
+   "fieldname": "time_to_slot",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "Time To",
+   "reqd": 1
+  },
+  {
+   "fieldname": "schedule_duration",
+   "fieldtype": "Int",
+   "label": "Schedule Duration (Days)",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-10 13:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Booking Schedule",
+ "name": "BS Delivery Schedule Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

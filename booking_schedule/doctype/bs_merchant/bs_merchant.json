@@ -1,0 +1,107 @@
+{
+ "actions": [],
+ "creation": "2023-12-10 13:05:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_general",
+  "ns_merchant_id",
+  "company_name",
+  "email",
+  "phone",
+  "column_break_1",
+  "give_access",
+  "deleted",
+  "inactive",
+  "section_break_schedule",
+  "delivery_schedule"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_general",
+   "fieldtype": "Section Break",
+   "label": "General Info"
+  },
+  {
+   "fieldname": "ns_merchant_id",
+   "fieldtype": "Data",
+   "label": "NS Merchant ID",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "company_name",
+   "fieldtype": "Data",
+   "label": "Company Name"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "options": "Email"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "Phone",
+   "options": "Phone"
+  },
+  {
+   "fieldname": "column_break_1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "give_access",
+   "fieldtype": "Check",
+   "label": "Give Access"
+  },
+  {
+   "default": "0",
+   "fieldname": "deleted",
+   "fieldtype": "Check",
+   "label": "Deleted"
+  },
+  {
+   "default": "0",
+   "fieldname": "inactive",
+   "fieldtype": "Check",
+   "label": "Inactive"
+  },
+  {
+   "fieldname": "section_break_schedule",
+   "fieldtype": "Section Break",
+   "label": "Delivery Schedule"
+  },
+  {
+   "fieldname": "delivery_schedule",
+   "fieldtype": "Table",
+   "label": "Delivery Schedule",
+   "options": "BS Delivery Schedule Item"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-10 13:05:00.000000",
+ "modified_by": "Administrator",
+ "module": "Booking Schedule",
+ "name": "BS Merchant",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
