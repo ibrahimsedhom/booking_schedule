@@ -1,0 +1,79 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"shortcut_bs_merchant\",\"type\":\"shortcut\"},{\"id\":\"shortcut_bs_booking\",\"type\":\"shortcut\"},{\"id\":\"shortcut_bs_public_holiday\",\"type\":\"shortcut\"}]",
+ "creation": "2023-12-10 14:00:00.000000",
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "calendar",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Booking Schedule",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "BS Merchant",
+   "link_count": 0,
+   "link_to": "BS Merchant",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "BS Booking",
+   "link_count": 0,
+   "link_to": "BS Booking",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "BS Public Holiday",
+   "link_count": 0,
+   "link_to": "BS Public Holiday",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2023-12-10 14:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Booking Schedule",
+ "name": "Booking Schedule",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "restrict_to_domain": "",
+ "roles": [],
+ "sequence_id": 30,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "BS Merchant",
+   "link_to": "BS Merchant",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "BS Booking",
+   "link_to": "BS Booking",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "BS Public Holiday",
+   "link_to": "BS Public Holiday",
+   "type": "DocType"
+  }
+ ],
+ "title": "Booking Schedule"
+}
