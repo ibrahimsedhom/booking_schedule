@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "autoname": "hash",
  "creation": "2023-12-10 13:10:00.000000",
  "doctype": "DocType",
  "engine": "InnoDB",
