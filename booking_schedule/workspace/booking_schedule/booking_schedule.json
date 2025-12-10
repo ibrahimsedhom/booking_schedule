@@ -13,6 +13,13 @@
   {
    "hidden": 0,
    "is_query_report": 0,
+   "label": "Masters",
+   "onboard": 0,
+   "type": "header"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "BS Merchant",
    "link_count": 0,
    "link_to": "BS Merchant",
