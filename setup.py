@@ -1,9 +1,7 @@
 from setuptools import setup, find_packages
 
-with open("requirements.txt") as f:
-	install_requires = f.read().strip().split("\n")
-
-from booking_schedule import __version__ as version
+# Hardcoded version and requirements to avoid encoding issues during install
+version = '0.0.1'
 
 setup(
 	name="booking_schedule",
@@ -14,5 +12,5 @@ setup(
 	packages=find_packages(),
 	zip_safe=False,
 	include_package_data=True,
-	install_requires=install_requires
+	install_requires=["frappe"]
 )
