@@ -61,7 +61,7 @@
  "modified": "2023-12-10 13:00:00.000000",
  "modified_by": "Administrator",
  "module": "Booking Schedule",
- "name": "BS Delivery Schedule Item",
+ "name": "Delivery Schedule Item",
  "owner": "Administrator",
  "permissions": [],
  "sort_field": "modified",

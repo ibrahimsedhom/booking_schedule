@@ -40,8 +40,8 @@
    "fieldname": "merchant_ns_id",
    "fieldtype": "Link",
    "in_list_view": 1,
-   "label": "Merchant NS ID",
-   "options": "BS Merchant",
+   "label": "Merchant",
+   "options": "Merchant",
    "reqd": 1
   },
   {
@@ -73,7 +73,7 @@
  "modified": "2023-12-10 13:10:00.000000",
  "modified_by": "Administrator",
  "module": "Booking Schedule",
- "name": "BS Booking",
+ "name": "Booking",
  "naming_rule": "Random",
  "owner": "Administrator",
  "permissions": [
