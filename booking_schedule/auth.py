@@ -70,10 +70,7 @@ def authenticate(username, password):
         }
     
     # Verify password
-    from booking_schedule.doctype.bs_user.bs_user import verify_password
-    # Note: Even though we renamed the DocType in JSON to "Merchant User", 
-    # the file structure might still be under bs_user folder unless we move it.
-    # We should probably update the valid_token query too.
+    from booking_schedule.doctype.merchant_user.merchant_user import verify_password
     if not verify_password(password, user.password):
         return {
             "status": "Failure",
